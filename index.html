@@ -1,0 +1,50 @@
+<head>
+    <title>Wikiviewer</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet"> 
+       
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<div class="container-fluid">
+  
+    <div class="row">
+    <div id="first-col" class="col-md-8 offset-md-2 col-sm-12">
+      
+      <h1><span class="h1bold">Wiki</span>Viewer</h1>
+    <br/>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div class="input-group">
+            
+            <input id="searchInput" type="text" placeholder="Search wikipedia for..." class="form-control">
+            
+            <span class="input-group-btn">
+            <button id="search" type="button" class="btn-grp btn btn-secondary">Go</button>
+            </span>  
+            
+            <span class="input-group-btn">
+            <button id="random" type="button" class="btn-grp btn btn-secondary">Random</button>
+            </span>  
+            
+          </div>
+        </div>
+      </div>
+        
+    </div><!--end of first col-->
+      
+    <div id="second-col" class="col-md-8 offset-md-2 col-sm-12">
+      <div id="results">
+        
+        <ul id="output">
+        </ul>
+        
+      </div>
+    </div><!--end of second col-->
+  </div><!--end of row-->
+  </div><!--end of container-->
